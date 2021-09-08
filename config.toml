@@ -1,0 +1,22 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Marianopolis AI Club'
+theme="sam"
+[params]
+    description          = "Learn about the Marianopolis AI Club."               # Max 160 characters show in search results
+    title                = "The Marianopolis AI Club"
+[[params.mainMenu]]
+    link = "/about-us"
+    text = "about us"
+
+[[params.mainMenu]]
+    link = "/roadmap"
+    text = "our roadmap"
+
+[[params.mainMenu]]
+    link = "/join-us"
+    text = "join now"
+
+[[params.mainMenu]]
+    link = "/opportunities"
+    text = "opportunities"
