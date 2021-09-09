@@ -5,6 +5,7 @@ theme="sam"
 [params]
     description          = "Learn about the Marianopolis AI Club."               # Max 160 characters show in search results
     title                = "The Marianopolis AI Club"
+    favicon = "foo.png"
 [[params.mainMenu]]
     link = "/about-us"
     text = "about us"
