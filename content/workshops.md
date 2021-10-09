@@ -3,6 +3,7 @@ title: "Workshops Archive"
 date: 2021-10-07T14:40:17-04:00
 ---
 Here is a list of the slides and Kahoots we used for our past workshops (will be updated every new workshop)
+
 Our main code repository is available at [here](https://github.com/marianopolis-ai/workshop-code)
 
 Workshop #0 : Introduction to the AI Club and ML/DL
@@ -34,5 +35,6 @@ Workshop #3: Lists, Dictionaries, and Idiomatic Python (enumerate,zip, comprehen
 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT18ex4aIGe0-o34VBzHr75OaelVzXQtgHw2rp6PdnkZi9HdrdTcRa4yRJnOGediwqpvR-aMHXArvHo/pub?start=false&loop=false&delayms=3000)
 &nbsp; [Kahoot](https://create.kahoot.it/share/python-3-manipulating-lists-and-dictionaries/14e77a22-ca32-46af-83d5-c7823cf4b373)
 &nbsp; [Code](https://github.com/marianopolis-ai/workshop-code/blob/master/3-lists-dictionaries-comprehension/main.ipynb)
+
 We cover dictionaries, list and dictionary comprehension, and tuples with enumerate(),zip(), and string methods like .join, and .split
 
