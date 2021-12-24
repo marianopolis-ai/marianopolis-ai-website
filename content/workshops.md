@@ -47,3 +47,47 @@ Workshop #4: NumPy and Linear Regression
 
 We cover NumPy, an essential library for many machine learning libraries, and an essential building block. <br/>
 We also cover **Least Squares Linear Regression**. Feel free to try out our problem set, and checkout the solution afterwards!
+
+Workshop #5: Matplotlib
+---
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vR9kMWF-MOeSQNvkzLn69tiLzNUNu8ZxCfWkJCrQpzDAqfq0MGn4Cabi6INC7rx_3P8uLo3QPlY6EjA/pub?start=false&loop=false&delayms=3000)
+&nbsp; [Problem Set](https://colab.research.google.com/drive/1M--Tg0NMp2ZbWnxglOwi2vbyzKEpHEVC?usp=sharing)
+&nbsp; [Solution](https://colab.research.google.com/drive/1qowlCF9BuGm0aaXgnDtDkSpoccX4LuI2?usp=sharing)
+
+We cover Matplotlib, a visualization library. While quite simple, it will be useful in the future once we use it in conjuction with other machine learning libraries.
+Feel free to try out our problem set, and checkout the solution afterwards!
+
+Workshop #6: Pandas and Scikit-Learn
+---
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vSc-rmI925IYZ3h9lafTsk-L5f8qIIL1yG_dWufwVmsCmNGWFKcvw5PNKTi_u4yZYgX4XIzMUybeCDR/pub?start=false&loop=false&delayms=3000)
+&nbsp; [Problem Set](https://colab.research.google.com/drive/17YyMbbFplNHLyXtV_3Hliwkqt_mCqlOE?usp=sharing)
+&nbsp; [Solution](https://colab.research.google.com/drive/1-dEH1duZl6qW1Lc1p5TLHUL-mqW_xfjW?usp=sharing)
+
+We create a linear regression model in Scikit-Learn and preprocess the WHO life expectancy dataset using Pandas.
+Feel free to try out our problem set, and checkout the solution afterwards!
+
+Workshop #7: Pandas, Scikit-Learn, and Shrooms
+---
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vTOtVJ7pbWjjjj9z8sh2xq1U_VpioLRm08LiQAJwkzRmk8f9VuRrUFpCn77SJ6EQb43TbvMea8ZlmWX/pub?start=false&loop=false&delayms=3000)
+&nbsp; [Problem Set](https://colab.research.google.com/drive/1voV-Ji86mLmHtCUXKEwneyxqAPSskxA_?usp=sharing)
+&nbsp; [Solution](https://colab.research.google.com/drive/10ODUejfvTaGmpR5MyBJqrVGr7oVVTXbK?usp=sharing)
+
+In this workshop, we experiment with various classification models on the UCI Mushroom dataset to determine edibility of mushrooms.
+Using Scikit-Learn, we cover different methods to encode categorical features such as Ordinal Encoding and One Hot Encoding and compare their performance.
+Checkout the problem set, and feel free to look at the solution afterwards!
+
+Workshop #8: Machine Learning Blitz: Cross-Validation and Hyperparameter Tuning with Scikit-Learn and Optuna
+---
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vTfFFUFkMmqEKtpQu7LsUFjCWE6L6XBaWqc-k9JbCmqylUDRONvpTdU67p1PNKtMuws3S2qxJyL8TMW/pub?start=false&loop=false&delayms=3000)
+&nbsp; [Problem Set](https://colab.research.google.com/drive/195eb8UzVlHyeFAiuJgptciywSRLLlGN9?usp=sharing)
+&nbsp; [Solution](https://colab.research.google.com/drive/1soglV8XEpXaI4dQZjWMhfQaiGQrZS2DS?usp=sharing)
+
+In this workshop, we're doing a machine learning blitz, exploring content beyond the basics of machine learning!
+Most notably, we're introducing cross-validation, the gold standard for validating models, as well as hyperparametr tuning with ScikitLearn (random and grid) and with Optuna (bayesian)
+Feel free to checkout the problem set or the solution set :)!
+
+Workshop #9: Machine Learning Blitz II: Gradient Boosting Methods, TabNet, and AutoML
+---
+Coming soon :)
+
+
