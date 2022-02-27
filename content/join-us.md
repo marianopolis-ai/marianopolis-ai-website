@@ -6,10 +6,15 @@ draft: false
 
 Discord
 ---
-Join us on Discord at  https://discord.gg/7ZKTPh2NzH to discuss AI and stay tuned on the next workshops!
+Join us on Discord at https://discord.gg/7ZKTPh2NzH to discuss AI and stay tuned on the next workshops!
 
 Facebook
 ---
-Join us on Facebook at https://www.facebook.com/groups/413334356715458/ to get all the important events and announcments
+Join us on Facebook at https://www.facebook.com/groups/413334356715458/ to get all the important events and announcements
+
+Winter 2022 Sign-Up Form
+---
+Sign up for our club at https://forms.gle/HghC3fnQ4TexY64V6 
+
 
 

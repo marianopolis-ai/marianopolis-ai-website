@@ -66,6 +66,22 @@ Workshop #6: Pandas and Scikit-Learn
 We create a linear regression model in Scikit-Learn and preprocess the WHO life expectancy dataset using Pandas.
 Feel free to try out our problem set, and checkout the solution afterwards!
 
+Review Workshop #1
+---
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vRzBf1zV9CPJ_OVoGauXKIJWEq5HhkE6nyECLFC7F3bBU_fJpaXb-cdw2g8wcBw0A7xleq3eRPXIlGl/pub?start=false&loop=false&delayms=3000)
+&nbsp; [Problem Set](https://colab.research.google.com/drive/1x5VOQhTi1mRUBPYGXsFJIxvRlfUsFaNf?usp=sharing)
+&nbsp; [Solution Set (incomplete)](https://colab.research.google.com/drive/1rIQgNtKmFCEA2t7c_X9p0E977nfQYws0?usp=sharing)
+
+Here is the MEGAAAAA-REVIEW Workshop of everything up till workshop #6 :)
+
+Review Workshop #2
+---
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vRzBf1zV9CPJ_OVoGauXKIJWEq5HhkE6nyECLFC7F3bBU_fJpaXb-cdw2g8wcBw0A7xleq3eRPXIlGl/pub?start=false&loop=false&delayms=3000)
+&nbsp; [Problem Set](https://colab.research.google.com/drive/1x5VOQhTi1mRUBPYGXsFJIxvRlfUsFaNf?usp=sharing)
+&nbsp; [(COMPLETE!) Solution Set](https://colab.research.google.com/drive/1VcM9B-KsqYc_4hpM9nfPGPzQL-fX8Sa4?usp=sharing)
+
+Here is the continuation of the MEGAAAAA-REVIEW Workshop of everything up till workshop #6 :)
+
 Workshop #7: Pandas, Scikit-Learn, and Shrooms
 ---
 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vTOtVJ7pbWjjjj9z8sh2xq1U_VpioLRm08LiQAJwkzRmk8f9VuRrUFpCn77SJ6EQb43TbvMea8ZlmWX/pub?start=false&loop=false&delayms=3000)
