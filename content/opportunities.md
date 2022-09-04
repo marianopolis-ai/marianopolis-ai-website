@@ -14,7 +14,8 @@ You will be working on one (or multiple) project(s) that inspire you. You can se
 
 ⏰ When
 ---
-Fall semester from September 2022 to November 2022 and Winter Edition during the 2023 Winter!
+- Fall semester from September 2022 to November 2022 and Winter Edition during the 2023 Winter!
+- Virtual workshops every Saturday during those weeks!
 
 > NOTE: projects will be done during the Winter Semester and NOT the fall semester.
 
@@ -24,7 +25,7 @@ Awesome learning and networking experience! + you could get hired by the company
 
 🥳 Interested?
 ---
-- Read more about it in this attached prospectus: [Download PDF](/data/RD_Programs_Fall_Cohort_2022_E-Brouchure.pdf)
+- Read more about it in this attached prospectus: [View PDF](https://github.com/marianopolis-ai/marianopolis-ai-website/blob/master/data/RD_Programs_Fall_Cohort_2022_E-Brouchure.pdf)
 - Visit their website at: https://ailaunchlab.webflow.io/
 <!--1. Obtain your Eventbrite ticket 🎫 here: https://www.eventbrite.ca/e/rd-programs-fall-cohort-tickets-164654791915 and use the promo code MARIANOPOLIS to get 100% off (free)-->
 <!--2. Fill in this Google form: https://forms.gle/4ZdSFKxLVQQjns7H8 and indicate that you’ve heard about this program from the Marianopolis AI Club (Deadline: September 9th)-->
