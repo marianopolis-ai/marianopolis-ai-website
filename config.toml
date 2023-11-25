@@ -11,11 +11,11 @@ theme="sam"
     text = "about us"
 
 [[params.mainMenu]]
-    link = "/current-workshops"
+    link = "/workshops"
     text = "current workshops"
 
 [[params.mainMenu]]
-    link = "/workshops"
+    link = "/workshops-archive"
     text = "workshops archive"
 
 
