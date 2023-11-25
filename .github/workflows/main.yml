@@ -25,16 +25,8 @@ jobs:
       - name: build
         run: hugo
       - name: Deploy to mariai.surge.sh
-        uses: dswistowski/surge-sh-action@v1
-        with:
-          domain: "mariai.surge.sh"
-          project: "./public"
-          login: ${{ secrets.surge_login }}
-          token: ${{ secrets.surge_token }
-      - name: Deploy to mari-ai.surge.sh
-        uses: dswistowski/surge-sh-action@v1
-        with:
-          domain: "mari-ai.surge.sh"
-          project: "./public"
-          login: ${{ secrets.surge_login }}
-          token: ${{ secrets.surge_token }}
+        run: |
+          npm install -g surge
+          cp -r public public2
+          surge --project public --domain mariai.surge.sh --token ${{secrets.SURGE_TOKEN}}
+          surge --project public2 --domain mari-ai.surge.sh --token ${{secrets.SURGE_TOKEN}}
