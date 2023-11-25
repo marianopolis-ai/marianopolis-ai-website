@@ -3,21 +3,30 @@ name: My workflow
 on: push
 
 jobs:
-  my-job-1:
-    name: Deploy on mariai
+  deploy:
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Hugo
+        env: 
+          HUGO_VERSION: 0.100.1
+        run: |
+          mkdir ~/hugo
+          cd ~/hugo
+          curl -L "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" --output hugo.tar.gz
+          tar -xvzf hugo.tar.gz
+          sudo mv hugo /usr/local/bin
+      - name: build
+        run: hugo
       - name: Deploy to mariai.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'mariai.surge.sh'
           project: '.'
           login: ${{ secrets.surge_login }}
-          token: ${{ secrets.surge_token }}
-  my-job-2:
-    name: Deploy on mari-ai
-    runs-on: ubuntu-latest
-    steps:
+          token: ${{ secrets.surge_token }
       - name: Deploy to mari-ai.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
@@ -25,3 +34,6 @@ jobs:
           project: '.'
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
+
+          
+     
