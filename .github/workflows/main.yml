@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Hugo
         env:
-          HUGO_VERSION: 0.120.4
+          HUGO_VERSION: 0.68.3
         run: |
           mkdir ~/hugo
           cd ~/hugo
