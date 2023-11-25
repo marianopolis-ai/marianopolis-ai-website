@@ -1,6 +1,10 @@
 name: My workflow
 
-on: push
+on:
+  workflow_dispatch:
+    push:
+      branches:
+        - main
 
 jobs:
   deploy:
@@ -10,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Hugo
-        env: 
+        env:
           HUGO_VERSION: 0.100.1
         run: |
           mkdir ~/hugo
@@ -23,17 +27,14 @@ jobs:
       - name: Deploy to mariai.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'mariai.surge.sh'
-          project: '.'
+          domain: "mariai.surge.sh"
+          project: "./public"
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }
       - name: Deploy to mari-ai.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'mari-ai.surge.sh'
-          project: '.'
+          domain: "mari-ai.surge.sh"
+          project: "./public"
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
-
-          
-     
