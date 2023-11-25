@@ -1,0 +1,27 @@
+name: My workflow
+
+on: push
+
+jobs:
+  my-job-1:
+    name: Deploy on mariai
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to mariai.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'mariai.surge.sh'
+          project: '.'
+          login: ${{ secrets.surge_login }}
+          token: ${{ secrets.surge_token }}
+  my-job-2:
+    name: Deploy on mari-ai
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to mari-ai.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'mari-ai.surge.sh'
+          project: '.'
+          login: ${{ secrets.surge_login }}
+          token: ${{ secrets.surge_token }}
