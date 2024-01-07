@@ -1,32 +1,124 @@
 baseURL = '/'
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'Marianopolis AI Club'
-theme="sam"
+theme="risotto"
+copyright = "The Marianopolis AI Club."
+paginate = 3
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
 [params]
-    description          = "Learn about the Marianopolis AI Club."               # Max 160 characters show in search results
-    title                = "The Marianopolis AI Club"
-    favicon = "foo.png"
-[[params.mainMenu]]
-    link = "/about-us"
-    text = "about us"
+noindex = false
 
-[[params.mainMenu]]
-    link = "/workshops"
-    text = "current workshops"
+[params.theme]
+palette = "base16-dark"
 
-[[params.mainMenu]]
-    link = "/workshops-archive"
-    text = "workshops archive"
+# Sidebar: about/bio
+[params.about]
+title = "Marianopolis AI Club"
+description = "Welcome to the Marianopolis AI Club!"
+logo = "mari-ai-logo.png"
 
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
-[[params.mainMenu]]
-    link = "/roadmap"
-    text = "our roadmap"
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/marianopolis-ai"
 
-[[params.mainMenu]]
-    link = "/join-us"
-    text = "join now"
+[[params.socialLinks]]
+icon = "fa-brands fa-instagram"
+title = "Instagram"
+url = "https://www.instagram.com/mari_ai_club/"
 
-[[params.mainMenu]]
-    link = "/opportunities"
-    text = "opportunities"
+[[params.socialLinks]]
+icon = "fa-brands fa-discord"
+title = "Discord"
+url = "https://discord.com/invite/7ZKTPh2NzH"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about-us"
+    name = "About us"
+    url = "/about-us/"
+    weight = 10
+  [[menu.main]]
+    identifier = "current-workshops"
+    name = "Current workshops"
+    url = "/current-workshops/"
+    weight = 10
+  [[menu.main]]
+    identifier = "workshop-archive"
+    name = "Workshop archive"
+    url = "/workshop-archive/"
+    weight = 10
+  [[menu.main]]
+    identifier = "roadmap"
+    name = "Roadmap"
+    url = "/roadmap/"
+    weight = 10
+  [[menu.main]]
+    identifier = "join-now"
+    name = "Join now"
+    url = "/join-now/"
+    weight = 10
+  [[menu.main]]
+    identifier = "opportunities"
+    name = "Opportunities"
+    url = "/opportunities/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
