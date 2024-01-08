@@ -7,7 +7,7 @@ aliases = ["roadmap", "club-roadmap"]
 
 <!-- ## Our plan for the academic year of 2023-2024 -->
 
-## Out plan for Winter 2024
+## Our plan for Winter 2024
 
 <br>
 
