@@ -1,9 +1,10 @@
-baseURL = '/'
-languageCode = 'en'
-title = 'Marianopolis AI Club'
-theme="risotto2"
-copyright = "The Marianopolis AI Club."
+baseURL = "https://risotto.joeroe.io"
+theme = "risotto"
+title = "risotto demo"
+author = "Joe Roe"
+copyright = "© [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors)."
 paginate = 3
+languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
@@ -17,13 +18,13 @@ sectionPagesMenu = "main"
 noindex = false
 
 [params.theme]
-palette = "nord"
+palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "Marianopolis AI Club"
-description = "Welcome to the Marianopolis AI Club!"
-logo = "mari-ai-logo.png"
+title = "risotto"
+description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
+logo = "images/rice.svg"
 
 # Sidebar: social links
 # Available icon sets:
@@ -33,50 +34,30 @@ logo = "mari-ai-logo.png"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/marianopolis-ai"
+url = "https://github.com/joeroe/risotto"
 
 [[params.socialLinks]]
-icon = "fa-brands fa-instagram"
-title = "Instagram"
-url = "https://www.instagram.com/mari_ai_club/"
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:example@example.com"
 
 [[params.socialLinks]]
-icon = "fa-brands fa-discord"
-title = "Discord"
-url = "https://discord.com/invite/7ZKTPh2NzH"
+icon = "ai ai-orcid"
+title = "ORCID"
+url = "https://orcid.org/0000-0001-2345-6789"
 
 [menu]
 
   [[menu.main]]
-    identifier = "about-us"
-    name = "About us"
-    url = "/about-us/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
     weight = 10
-  [[menu.main]]
-    identifier = "current-workshops"
-    name = "Current workshops"
-    url = "/current-workshops/"
-    weight = 10
-  [[menu.main]]
-    identifier = "workshop-archive"
-    name = "Workshop archive"
-    url = "/workshop-archive/"
-    weight = 10
-  [[menu.main]]
-    identifier = "roadmap"
-    name = "Roadmap"
-    url = "/roadmap/"
-    weight = 10
-  [[menu.main]]
-    identifier = "join-now"
-    name = "Join now"
-    url = "/join-now/"
-    weight = 10
-  [[menu.main]]
-    identifier = "opportunities"
-    name = "Opportunities"
-    url = "/opportunities/"
-    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
 
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
