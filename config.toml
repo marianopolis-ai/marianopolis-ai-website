@@ -78,11 +78,6 @@ url = "https://discord.com/invite/7ZKTPh2NzH"
     url = "/opportunities/"
     weight = 10
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
