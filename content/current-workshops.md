@@ -99,6 +99,15 @@ This is a review of everything we learned in previous workshops: Python basics a
 &nbsp;[Problem set](https://colab.research.google.com/drive/1GWQT1ciq4VNblDmxJPyom11JyqZg9EvV?usp=sharing)
 &nbsp;[Solution set](https://colab.research.google.com/drive/1bSJggUXE4x-r3jQ8wwcGUAd14xQVuMs_?usp=sharing)
 
+## Workshop #6: Pandas and Sklearn
+
+We're gonna start creating simple machine-learning models and get familiar with more important libraries!
+
+[Slides](https://docs.google.com/presentation/d/1_VLWEhhOAsD3PZ2IdTk2ul50LfsQ1yuEELVqAp668z8/edit?usp=sharing)
+&nbsp;[Problem Set](https://colab.research.google.com/drive/17YyMbbFplNHLyXtV_3Hliwkqt_mCqlOE?usp=sharing)
+&nbsp;[Solution Set](https://colab.research.google.com/drive/1-dEH1duZl6qW1Lc1p5TLHUL-mqW_xfjW?usp=sharing)
+&nbsp;[Data](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
+
 <!-- ## Workshop #5: Keras and Deep Learning
 
 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT4UOWZeaDvDZ_Ae0f4wLOSW-nHMPz9iJ857ybicUMJ_I8li-k3GrDezAM76JJsP7YGGYJ2kJfqnK1Z/pub?start=false&loop=false&delayms=3000)
