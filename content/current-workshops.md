@@ -99,6 +99,8 @@ This is a review of everything we learned in previous workshops: Python basics a
 &nbsp;[Problem set](https://colab.research.google.com/drive/1GWQT1ciq4VNblDmxJPyom11JyqZg9EvV?usp=sharing)
 &nbsp;[Solution set](https://colab.research.google.com/drive/1bSJggUXE4x-r3jQ8wwcGUAd14xQVuMs_?usp=sharing)
 
+---
+
 ## Workshop #6: Pandas and Sklearn
 
 We're gonna start creating simple machine-learning models and get familiar with more important libraries!
